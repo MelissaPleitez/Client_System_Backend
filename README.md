@@ -1,7 +1,7 @@
 # Backend Setup and Configuration (for .NET Web API)
 
 ### 1. Prerequisites:
-- You need to have .NET Core 6 installed on your system.
+- You need to have .NET Core 6.0 Runtime installed on your system. (Make sure to installed this version to run the project)
 - Ensure HTTPS is enabled, as the frontend expects a secure connection.
 
 ### 2. Clone the Repository:
@@ -19,6 +19,8 @@ Ensure that your machine allows running on this port and that the HTTPS certific
    - If you're using Visual Studio, you can start the backend by clicking the green "Start" button
     (often labeled with the project's name in this case "Clients_System"). This will launch the backend server and
      automatically open a terminal window where you can see the application’s output, including the URL it’s listening on.
+
+###note: If the backend built in .NET is not running or is showing errors, it's likely because the .NET Core 6.0 Runtime is not installed. The .NET Core 6.0 Runtime must be installed on the system for the application to work properly
 
 # Assumptions and Notes
      
